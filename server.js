@@ -1,7 +1,7 @@
 // Node Dependencies
 var express = require('express');
 var bodyParser = require('body-parser');
-var overrideMethod = require('method-override');
+// var overrideMethod = require('method-override');
 
 // Open Server
 var PORT = process.env.PORT || 3000;
@@ -24,7 +24,7 @@ app.engine('handlebars', exphbs({
 app.set('view engine', 'handlebars');
 
 
-var router = require('./controllers/burgers_controller.js');
+var router = require('./controllers/burgerController.js');
 app.use('/', router);
 
 

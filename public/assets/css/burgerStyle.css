@@ -1,0 +1,22 @@
+body {
+    background-color: lightcoral;
+}
+
+.jumbotron h1 {
+    color: lightskyblue;
+
+}
+
+.jumbotron {
+    padding-top: 5%;
+    background-color: transparent !important;
+}
+
+img {
+    margin-top: 5%;
+    width: 20%;
+}
+
+.submitFont {
+    color: plum;
+}
