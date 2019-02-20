@@ -1,22 +1,26 @@
 body {
-    background-color: lightcoral;
-}
-
-.jumbotron h1 {
-    color: lightskyblue;
-
-}
-
-.jumbotron {
-    padding-top: 5%;
-    background-color: transparent !important;
+    background-color: aqua;
 }
 
 img {
-    margin-top: 5%;
-    width: 20%;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    padding: auto;
+    padding-top: 5%;
+    align-content: center;
+    float: right;
 }
 
-.submitFont {
-    color: plum;
+.jumbotron {
+    align-content: center;
+    text-align: center;
+    background-color: aqua;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 10%;
 }
